@@ -6,7 +6,6 @@ using UnityEngine.UI;
 public class Staff_Menu : MonoBehaviour {
     public int staff_isclicked = 1;
     public int colliding = 1;
-    public GameObject Staff_Menu_Window;
 
 	// Use this for initialization
 	void Start () {
@@ -42,19 +41,17 @@ public class Staff_Menu : MonoBehaviour {
             while (colliding == 0)
             {
                 Debug.Log("display staff menu now!");
-                Show_Staff_Menu();
                 colliding = 1;
             }
         }
+        Show_Staff_Menu();
     }
 
 
 
-    void Show_Staff_Menu() {
-        Staff_Menu_Window.SetActive(true);
-    }
-
-    public void Close_Staff_Menu() {
-        Staff_Menu_Window.SetActive(false);
+    void Show_Staff_Menu() { 
+    
+    
+    
     }
 }
