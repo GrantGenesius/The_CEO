@@ -2,4 +2,4 @@
 
 a 2D arcade family game
 
-main file is on "The_CEO_2
+main file is on the folder "The_CEO_2"

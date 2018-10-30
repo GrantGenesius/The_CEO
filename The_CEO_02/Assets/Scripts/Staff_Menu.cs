@@ -29,6 +29,7 @@ public class Staff_Menu : MonoBehaviour {
                 else
                 {
                     staff_isclicked = 1;
+                    Close_Staff_Menu();
                 }
             }
         }
@@ -50,7 +51,7 @@ public class Staff_Menu : MonoBehaviour {
 
 
 
-    void Show_Staff_Menu() {
+    public void Show_Staff_Menu() {
         Staff_Menu_Window.SetActive(true);
     }
 
