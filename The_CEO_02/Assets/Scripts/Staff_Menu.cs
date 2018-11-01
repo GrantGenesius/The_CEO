@@ -21,15 +21,19 @@ public class Staff_Menu : MonoBehaviour {
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
             if (Physics.Raycast(ray, out hit))
             {
-                if (hit.transform.name == "Staff")
+                if (hit.transform.tag == "Staff")
                 {
+
                     staff_isclicked = 0;
                     colliding = 0;
                 }
                 else
                 {
                     staff_isclicked = 1;
-                    Close_Staff_Menu();
+                    if (hit.transform.tag != "UI")
+                    {
+                        Close_Staff_Menu();
+                    }
                 }
             }
         }

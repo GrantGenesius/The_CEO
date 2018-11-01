@@ -6,6 +6,7 @@ TagManager:
   tags:
   - CEO
   - Staff
+  - UI
   layers:
   - Default
   - TransparentFX
