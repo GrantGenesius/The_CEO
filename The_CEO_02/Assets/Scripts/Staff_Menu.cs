@@ -42,7 +42,7 @@ public class Staff_Menu : MonoBehaviour {
 
 
     void OnCollisionStay(Collision coll) { 
-        if (coll.gameObject.name == "CEO" && staff_isclicked == 0)
+        if (coll.gameObject.tag == "CEO" && staff_isclicked == 0)
         {
             while (colliding == 0)
             {
