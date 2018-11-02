@@ -241,6 +241,7 @@ GameObject:
   - component: {fileID: 8779215}
   - component: {fileID: 8779214}
   - component: {fileID: 8779213}
+  - component: {fileID: 8779216}
   m_Layer: 5
   m_Name: close staff menu button
   m_TagString: UI
@@ -353,6 +354,17 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 8779211}
   m_CullTransparentMesh: 0
+--- !u!225 &8779216
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 8779211}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &141288165
 GameObject:
   m_ObjectHideFlags: 0
@@ -928,6 +940,7 @@ GameObject:
   - component: {fileID: 604555592}
   - component: {fileID: 604555591}
   - component: {fileID: 604555590}
+  - component: {fileID: 604555593}
   m_Layer: 5
   m_Name: Move staff button
   m_TagString: UI
@@ -1029,6 +1042,17 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 604555588}
   m_CullTransparentMesh: 0
+--- !u!225 &604555593
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 604555588}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &615987877
 GameObject:
   m_ObjectHideFlags: 0
@@ -1277,7 +1301,7 @@ Transform:
   - {fileID: 1978599784}
   - {fileID: 1137752318}
   m_Father: {fileID: 1179647785}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &682318722
 GameObject:
@@ -1628,7 +1652,7 @@ GameObject:
   - component: {fileID: 747738549}
   m_Layer: 0
   m_Name: CEO_computer
-  m_TagString: Untagged
+  m_TagString: CEO_computer
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
@@ -2012,6 +2036,7 @@ GameObject:
   - component: {fileID: 790187760}
   - component: {fileID: 790187762}
   - component: {fileID: 790187761}
+  - component: {fileID: 790187763}
   m_Layer: 5
   m_Name: Staff image
   m_TagString: UI
@@ -2071,6 +2096,17 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 790187759}
   m_CullTransparentMesh: 0
+--- !u!225 &790187763
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 790187759}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &791983089
 GameObject:
   m_ObjectHideFlags: 0
@@ -2092,13 +2128,13 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 791983089}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.5439276, y: -0.8191406, z: -2.2305002}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -3.2639275, y: -1.8191407, z: -0.21485066}
+  m_LocalScale: {x: 1, y: 1, z: 0.65007716}
   m_Children:
   - {fileID: 2109162129}
-  m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_Father: {fileID: 1446887421}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &799463172
 GameObject:
@@ -2375,6 +2411,7 @@ GameObject:
   - component: {fileID: 892713378}
   - component: {fileID: 892713380}
   - component: {fileID: 892713379}
+  - component: {fileID: 892713381}
   m_Layer: 5
   m_Name: Staff menu Panel
   m_TagString: UI
@@ -2440,6 +2477,17 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 892713377}
   m_CullTransparentMesh: 0
+--- !u!225 &892713381
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 892713377}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &935561119
 GameObject:
   m_ObjectHideFlags: 0
@@ -2857,7 +2905,6 @@ Transform:
   m_LocalPosition: {x: -1.8126857, y: -6.5222654, z: -2.8893332}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 1184915979}
   - {fileID: 1910013568}
   - {fileID: 653177146}
   - {fileID: 1640738557}
@@ -2886,15 +2933,15 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1184915978}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.6403911, y: 4.563281, z: 0.28616452}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -5.1730766, y: -2.9589844, z: -0.45711395}
+  m_LocalScale: {x: 1, y: 1, z: 0.65007716}
   m_Children:
   - {fileID: 743306108}
   - {fileID: 4103427}
   - {fileID: 1628625409}
   - {fileID: 1226624157}
-  m_Father: {fileID: 1179647785}
-  m_RootOrder: 0
+  m_Father: {fileID: 1446887421}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1200401123
 GameObject:
@@ -3273,6 +3320,36 @@ Transform:
   m_Father: {fileID: 1354470679}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1446887420
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1446887421}
+  m_Layer: 0
+  m_Name: NavMesh stuffs
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1446887421
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1446887420}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1.72, y: 1, z: -1.9}
+  m_LocalScale: {x: 1, y: 1, z: 1.5382789}
+  m_Children:
+  - {fileID: 791983090}
+  - {fileID: 1184915979}
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1510030161
 GameObject:
   m_ObjectHideFlags: 0
@@ -3349,6 +3426,7 @@ GameObject:
   - component: {fileID: 1548952127}
   - component: {fileID: 1548952129}
   - component: {fileID: 1548952128}
+  - component: {fileID: 1548952130}
   m_Layer: 5
   m_Name: Staff Name
   m_TagString: UI
@@ -3416,6 +3494,17 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1548952126}
   m_CullTransparentMesh: 0
+--- !u!225 &1548952130
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1548952126}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &1628625403
 GameObject:
   m_ObjectHideFlags: 0
@@ -3563,7 +3652,7 @@ Transform:
   - {fileID: 1747615857}
   - {fileID: 641565473}
   m_Father: {fileID: 1179647785}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1668822394
 GameObject:
@@ -3575,6 +3664,7 @@ GameObject:
   - component: {fileID: 1668822395}
   - component: {fileID: 1668822397}
   - component: {fileID: 1668822396}
+  - component: {fileID: 1668822398}
   m_Layer: 5
   m_Name: Staff Details
   m_TagString: UI
@@ -3643,6 +3733,17 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1668822394}
   m_CullTransparentMesh: 0
+--- !u!225 &1668822398
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1668822394}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &1696514644
 GameObject:
   m_ObjectHideFlags: 0
@@ -4022,7 +4123,7 @@ Transform:
   - {fileID: 754037890}
   - {fileID: 806371335}
   m_Father: {fileID: 1179647785}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1912542146
 GameObject:
@@ -4586,6 +4687,7 @@ GameObject:
   - component: {fileID: 2060127387}
   - component: {fileID: 2060127386}
   - component: {fileID: 2060127385}
+  - component: {fileID: 2060127388}
   m_Layer: 5
   m_Name: Fire staff button
   m_TagString: UI
@@ -4687,6 +4789,17 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2060127383}
   m_CullTransparentMesh: 0
+--- !u!225 &2060127388
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2060127383}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &2109162127
 GameObject:
   m_ObjectHideFlags: 0

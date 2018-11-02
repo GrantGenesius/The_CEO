@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.EventSystems;
 
 public class Staff_Menu : MonoBehaviour {
     public int staff_isclicked = 1;
@@ -30,7 +31,7 @@ public class Staff_Menu : MonoBehaviour {
                 else
                 {
                     staff_isclicked = 1;
-                    if (hit.transform.tag != "UI")
+                    if (!EventSystem.current.IsPointerOverGameObject())
                     {
                         Close_Staff_Menu();
                     }

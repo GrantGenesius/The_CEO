@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
+using UnityEngine.EventSystems;
 
 public class CEO_movement : MonoBehaviour {
     public Camera cam;
@@ -23,6 +24,7 @@ public class CEO_movement : MonoBehaviour {
             
             if (Physics.Raycast(ray, out hit)) {
                 //agent.SetDestination(hit.point);
+                if(!EventSystem.current.IsPointerOverGameObject())
                 agent.destination = hit.point;
             }
 
