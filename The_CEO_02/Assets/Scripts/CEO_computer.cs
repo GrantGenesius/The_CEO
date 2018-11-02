@@ -24,21 +24,24 @@ public class CEO_computer : MonoBehaviour {
         if (Input.GetMouseButtonDown(0)) { 
             RaycastHit hit;
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-            if (Physics.Raycast(ray, out hit)){
+            if (Physics.Raycast(ray, out hit))
+            {
                 if (hit.transform.tag == "CEO_computer")
                 {
                     isClicked = 0;
                     isTouching = 0;
                     
                 }
-                else {
+                else 
+                {
                     isClicked = 1;
-                    close_CEO_menu();
-                    Debug.Log("upgrade menu closed!");
+                    if (!EventSystem.current.IsPointerOverGameObject())
+                    {
+                        close_CEO_menu();
+                        Debug.Log("upgrade menu closed!");
+                    }
                 }
-
-
-                
+             
             }
         }
         
