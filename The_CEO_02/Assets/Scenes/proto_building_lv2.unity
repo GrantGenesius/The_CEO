@@ -1187,6 +1187,11 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 1805079256}
     m_Modifications:
+    - target: {fileID: 114040701817039416, guid: 68bfe4b63ced9554c82bd7f2c49884a9,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 224811644660832782, guid: 68bfe4b63ced9554c82bd7f2c49884a9,
         type: 2}
       propertyPath: m_LocalPosition.x
@@ -1280,12 +1285,12 @@ Prefab:
     - target: {fileID: 114855046448701402, guid: 68bfe4b63ced9554c82bd7f2c49884a9,
         type: 2}
       propertyPath: m_havePropertiesChanged
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 114855046448701402, guid: 68bfe4b63ced9554c82bd7f2c49884a9,
         type: 2}
       propertyPath: m_isInputParsingRequired
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 114040701817039416, guid: 68bfe4b63ced9554c82bd7f2c49884a9,
         type: 2}
@@ -1297,6 +1302,45 @@ Prefab:
       propertyPath: item_price
       value: 
       objectReference: {fileID: 722616137}
+    - target: {fileID: 1046323492310688, guid: 68bfe4b63ced9554c82bd7f2c49884a9, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114040701817039416, guid: 68bfe4b63ced9554c82bd7f2c49884a9,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_FloatArgument
+      value: 300
+      objectReference: {fileID: 0}
+    - target: {fileID: 114040701817039416, guid: 68bfe4b63ced9554c82bd7f2c49884a9,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114040701817039416, guid: 68bfe4b63ced9554c82bd7f2c49884a9,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114040701817039416, guid: 68bfe4b63ced9554c82bd7f2c49884a9,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 189417851}
+    - target: {fileID: 114040701817039416, guid: 68bfe4b63ced9554c82bd7f2c49884a9,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: gotoNextScene
+      objectReference: {fileID: 0}
+    - target: {fileID: 114040701817039416, guid: 68bfe4b63ced9554c82bd7f2c49884a9,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 114157625150034128, guid: 68bfe4b63ced9554c82bd7f2c49884a9,
+        type: 2}
+      propertyPath: item_description
+      value: 
+      objectReference: {fileID: 2080102501}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 68bfe4b63ced9554c82bd7f2c49884a9, type: 2}
   m_IsPrefabAsset: 0
@@ -5429,25 +5473,7 @@ MonoBehaviour:
     item_cost: 300
     item_image: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
     button: {fileID: 1730194371413692, guid: 68bfe4b63ced9554c82bd7f2c49884a9, type: 2}
-  - item_name: Upgrade Building
-    item_description: +training division, +1 staff slot, +1 object
-    item_requirements: Only requires money
-    item_cost: 300
-    item_image: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-    button: {fileID: 1730194371413692, guid: 68bfe4b63ced9554c82bd7f2c49884a9, type: 2}
-  - item_name: Upgrade Building
-    item_description: +training division, +1 staff slot, +1 object
-    item_requirements: Only requires money
-    item_cost: 300
-    item_image: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-    button: {fileID: 1730194371413692, guid: 68bfe4b63ced9554c82bd7f2c49884a9, type: 2}
-  - item_name: Upgrade Building
-    item_description: +training division, +1 staff slot, +1 object
-    item_requirements: Only requires money
-    item_cost: 300
-    item_image: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-    button: {fileID: 1730194371413692, guid: 68bfe4b63ced9554c82bd7f2c49884a9, type: 2}
-  - item_name: Upgrade Building
+  - item_name: whats this?
     item_description: +training division, +1 staff slot, +1 object
     item_requirements: Only requires money
     item_cost: 300
@@ -6510,6 +6536,12 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2060127383}
   m_CullTransparentMesh: 0
+--- !u!114 &2080102501 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 114881027460544890, guid: 68bfe4b63ced9554c82bd7f2c49884a9,
+    type: 2}
+  m_PrefabInternal: {fileID: 490899949}
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
 --- !u!1 &2109162127
 GameObject:
   m_ObjectHideFlags: 0

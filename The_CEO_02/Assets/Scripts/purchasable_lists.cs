@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class purchasable_lists : MonoBehaviour {
 
@@ -31,7 +32,12 @@ public class purchasable_lists : MonoBehaviour {
             Item_Holder holderScript = holder.GetComponent<Item_Holder>();
 
             holderScript.item_name.text = item_list[i].item_name;
-            holderScript.item_price.text = item_list[i].item_cost.ToString();
+            
+
+            holderScript.item_price.text = "$ " + item_list[i].item_cost.ToString("N2");
+            holderScript.item_description.text = item_list[i].item_description;
+            holderScript.item_reqr.text = item_list[i].item_requirements;
+
 
         }
     }

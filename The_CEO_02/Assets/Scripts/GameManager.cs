@@ -50,6 +50,10 @@ public class GameManager : MonoBehaviour {
         networth.text = "$ " + money.ToString("N2");
     }
 
+    public void gotoNextScene() {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+    }
+
 
 
 }
