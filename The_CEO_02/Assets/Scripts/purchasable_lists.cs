@@ -26,7 +26,7 @@ public class purchasable_lists : MonoBehaviour {
 
     void fill_list() {
         for (int i = 0; i < item_list.Count; i++) {
-            GameObject holder = Instantiate(item_holder_prefab, grid, false);
+            GameObject holder = Instantiate(item_holder_prefab, grid);
             //holder.transform.SetParent(grid);
 
             Item_Holder holderScript = holder.GetComponent<Item_Holder>();

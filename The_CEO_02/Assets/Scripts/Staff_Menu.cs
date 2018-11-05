@@ -8,10 +8,11 @@ public class Staff_Menu : MonoBehaviour {
     public int staff_isclicked = 1;
     public int colliding = 1;
     public GameObject Staff_Menu_Window;
+    public GameObject staffMenu;
 
 	// Use this for initialization
 	void Start () {
-		
+        staffMenu = this.gameObject;
 	}
 	
 	// Update is called once per frame
@@ -62,5 +63,17 @@ public class Staff_Menu : MonoBehaviour {
 
     public void Close_Staff_Menu() {
         Staff_Menu_Window.SetActive(false);
+    }
+
+    public void set_trainButton_active() { 
+        
+    }
+
+    public void set_marketButton_active() { 
+    
+    }
+
+    public void set_WorkButton_active() { 
+    
     }
 }

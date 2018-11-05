@@ -8,6 +8,7 @@ public class CEO_movement : MonoBehaviour {
     public Camera cam;
     public NavMeshAgent agent;
     public Rigidbody Prefab;
+    public GameObject selectedStaff;
 
 	// Use this for initialization
 	void Start () {
@@ -26,6 +27,10 @@ public class CEO_movement : MonoBehaviour {
                 //agent.SetDestination(hit.point);
                 if(!EventSystem.current.IsPointerOverGameObject())
                 agent.destination = hit.point;
+                if (hit.collider.tag == "Staff")
+                {
+                    selectedStaff = hit.transform.gameObject;
+                }
             }
 
 
