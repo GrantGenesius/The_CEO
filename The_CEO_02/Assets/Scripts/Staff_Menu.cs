@@ -9,6 +9,10 @@ public class Staff_Menu : MonoBehaviour {
     public int colliding = 1;
     public GameObject Staff_Menu_Window;
     public GameObject staffMenu;
+    public Text staffname;
+    public Text staffdetail;
+
+
 
 	// Use this for initialization
 	void Start () {
@@ -58,6 +62,7 @@ public class Staff_Menu : MonoBehaviour {
 
 
     public void Show_Staff_Menu() {
+        
         Staff_Menu_Window.SetActive(true);
     }
 

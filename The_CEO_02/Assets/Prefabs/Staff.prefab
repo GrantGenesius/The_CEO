@@ -146,6 +146,7 @@ MonoBehaviour:
   locateStaffToTrain: {fileID: 0}
   locateStaffToWork: {fileID: 0}
   locateStaffToMarket: {fileID: 0}
+  selectedStaff: {fileID: 0}
 --- !u!195 &195778355466248542
 NavMeshAgent:
   m_ObjectHideFlags: 1
