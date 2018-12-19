@@ -128,8 +128,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   staff_isclicked: 1
   colliding: 1
-  Staff_Menu_Window: {fileID: 0}
+  Staff_Menu_Window: {fileID: 1039662110401636, guid: 81364823acb11614f99d44471c8de038,
+    type: 2}
   staffMenu: {fileID: 0}
+  staffManager: {fileID: 0}
+  Canvas: {fileID: 0}
+  staffname: {fileID: 0}
+  staffdetail: {fileID: 0}
 --- !u!114 &114588981418213024
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -141,6 +146,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 58cfab8f4d62b6b4eb890d217b954b68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cam: {fileID: 0}
   agent: {fileID: 195778355466248542}
   Prefab: {fileID: 54911581242324888}
   locateStaffToTrain: {fileID: 0}

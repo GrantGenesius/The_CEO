@@ -9,6 +9,8 @@ public class Staff_Menu : MonoBehaviour {
     public int colliding = 1;
     public GameObject Staff_Menu_Window;
     public GameObject staffMenu;
+    public GameObject staffManager;
+    public GameObject Canvas;
     public Text staffname;
     public Text staffdetail;
 
@@ -17,6 +19,12 @@ public class Staff_Menu : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
         staffMenu = this.gameObject;
+        //Staff_Menu_Window = findincludin
+        //Staff_Menu_Window = Canvas.transform.GetChild(0).gameObject;
+        //Staff_Menu_Window = Canvas.GetComponentInChildren<GameObject>(true);
+        //Staff_Menu_Window = Canvas.Find
+        //Staff_Menu_Window = GameObject.Find("Staff menu Panel");
+        
 	}
 	
 	// Update is called once per frame
