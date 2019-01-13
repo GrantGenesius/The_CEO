@@ -67,11 +67,19 @@ public class Staff_Menu : MonoBehaviour {
         }
     }
 
-
+    //public staff_list getcurrentstaffdetails(){
+    //    staff_list staff_list = staff_list[1];
+    //    return staff_list;
+    //}
 
     public void Show_Staff_Menu() {
         
         Staff_Menu_Window.SetActive(true);
+        //insert staff detail 
+        //public staff_list getstaffdetails(){
+        //   staff_list staffname = staff_list[1];
+        //}
+        //staffname.text = staff_list.staff_name;
     }
 
     public void Close_Staff_Menu() {

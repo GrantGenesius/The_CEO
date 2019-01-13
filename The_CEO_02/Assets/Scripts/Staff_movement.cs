@@ -37,12 +37,10 @@ public class Staff_movement : MonoBehaviour {
                     }
                 }
             }
-
         }
 	}
 
     public void TrainStaff() {
-        
         agent.destination = locateStaffToTrain.position;
     }
 

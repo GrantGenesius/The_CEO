@@ -1,0 +1,81 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1097509120312746}
+  m_IsPrefabAsset: 1
+--- !u!1 &1097509120312746
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4758064844159588}
+  - component: {fileID: 114046123272503466}
+  m_Layer: 0
+  m_Name: StaffMenuManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4758064844159588
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1097509120312746}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 243.93242, y: 110.09715, z: 0.4375}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114046123272503466
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1097509120312746}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa4072ce28880404cbc4620f54bb1c4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawned_staff_prefab: {fileID: 1462955383747584, guid: 65f8c499147f52b4c868c0b12af2440e,
+    type: 2}
+  spawn_point: {fileID: 0}
+  staff_list:
+  - staff_name: Staff_A
+    staff_lv: 1
+    staff_xp: 0
+    staff_gpm: 2
+  - staff_name: Staff_B
+    staff_lv: 1
+    staff_xp: 0
+    staff_gpm: 3
+  - staff_name: Staff_C
+    staff_lv: 1
+    staff_xp: 0
+    staff_gpm: 1
+  - staff_name: Staff_D
+    staff_lv: 2
+    staff_xp: 0
+    staff_gpm: 4
+  - staff_name: Staff_E
+    staff_lv: 2
+    staff_xp: 0
+    staff_gpm: 5
+  - staff_name: Staff_F
+    staff_lv: 2
+    staff_xp: 0
+    staff_gpm: 6

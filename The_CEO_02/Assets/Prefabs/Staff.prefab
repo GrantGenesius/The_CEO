@@ -40,8 +40,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1462955383747584}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3.08, y: 4.64, z: -3.5153842}
-  m_LocalScale: {x: 1, y: 0.99682283, z: 1.425}
+  m_LocalPosition: {x: 0.57, y: 4.64, z: -3.5153842}
+  m_LocalScale: {x: 1, y: 0.99682, z: 1.425}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -128,8 +128,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   staff_isclicked: 1
   colliding: 1
-  Staff_Menu_Window: {fileID: 1039662110401636, guid: 81364823acb11614f99d44471c8de038,
-    type: 2}
+  Staff_Menu_Window: {fileID: 0}
   staffMenu: {fileID: 0}
   staffManager: {fileID: 0}
   Canvas: {fileID: 0}

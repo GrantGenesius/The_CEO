@@ -14,6 +14,13 @@ public class GameManager : MonoBehaviour {
     public Text networth;
     public Text cost;
     public float amount;
+    public int staff1 = 0;
+    public int staff2 = 0;
+    public int staff3 = 0;
+    public int staff4 = 0;
+    public int staff5 = 0;
+    public int staff6 = 0;
+    public int chosenceo;
 
 	// Use this for initialization
 	void Start () {
@@ -54,6 +61,34 @@ public class GameManager : MonoBehaviour {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 
+    public void add_staff1(){
+        
+    }
+
+    public void add_staff2()
+    {
+
+    }
+
+    public void add_staff3()
+    {
+
+    }
+
+    public void add_staff4()
+    {
+
+    }
+
+    public void add_staff5()
+    {
+
+    }
+
+    public void add_staff6()
+    {
+
+    }
 
 
 }
